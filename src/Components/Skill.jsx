@@ -11,6 +11,7 @@ const Skill = ({name, img}) => {
         boxSize='80px'
         src={img}
         alt='Dan Abramov'
+        id="sicon"
 />
         {/* </div> */}
         {name}

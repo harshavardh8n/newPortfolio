@@ -123,7 +123,7 @@ const Skills = () => {
 
             <SimpleGrid minChildWidth='100px' spacing='20px'>
             {skills.map(skill=>(
-                <Skill name={skill.name} img={skill.img}/>
+                <Skill name={skill.name} img={skill.img} id="sicon"/>
                 ))} 
             </SimpleGrid>
            

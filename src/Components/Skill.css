@@ -17,3 +17,10 @@
     text-align: center;
 }
 
+@media (max-width: 500px) {
+
+    .skill{
+        width: 5rem;
+        height: 7rem;
+    }
+}
