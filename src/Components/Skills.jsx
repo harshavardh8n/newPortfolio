@@ -1,4 +1,4 @@
-import { Grid, GridItem, Text } from '@chakra-ui/react'
+import { Grid, GridItem, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 import { Element } from 'react-scroll'
 import "./Skills.css"
@@ -111,7 +111,7 @@ const Skills = () => {
             {/* <Skill name="react" img ="https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"></Skill> */}
 
 
-            <Grid  templateColumns='repeat(10, 1fr)' gap={6}>
+            {/* <Grid  templateColumns='repeat(8, 1fr)' gap={6}>
             
                 {skills.map(skill=>(
                 <GridItem> 
@@ -119,7 +119,15 @@ const Skills = () => {
                 </GridItem>
             ))}
              
-            </Grid>
+            </Grid> */}
+
+            <SimpleGrid minChildWidth='120px' spacing='40px'>
+            {skills.map(skill=>(
+                <Skill name={skill.name} img={skill.img}/>
+                ))} 
+            </SimpleGrid>
+           
+
         </div>
     </div>
     </Element>

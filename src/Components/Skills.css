@@ -1,3 +1,8 @@
+
+
+
+@media (min-width:500px) {
+    
 .skillsmain{
 
     height: 100vh;
@@ -10,7 +15,7 @@
     
     max-height: 80vh;
     min-height: 20vh;
-    width: 90%;
+    width: 90vw;
     margin: auto;
     padding: 2rem;
 
@@ -20,4 +25,12 @@
 #sheading{
     margin-left: 5rem;
 }
+}
 
+
+@media (max-width: 500px) {
+    *{
+        /* background-color: red; */
+        
+    }
+}

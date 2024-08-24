@@ -19,6 +19,23 @@
 }
 
 
+@media (max-width: 500px) {
+    .herocont{
+        width: 100vw;
+        overflow: hidden;
+        padding-left: 0.5rem;
+    }
+
+    .middle{
+        position: relative;
+        height: 25rem;
+    }
+    #mypic{
+        position: absolute;
+    }
+}
+
+
 
 @media (min-width: 768px) {
 
@@ -95,9 +112,9 @@
 
     .mern{
         font-family: "Dancing Script", cursive;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
 
         padding:2rem;
         width: 50vw;
