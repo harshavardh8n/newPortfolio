@@ -4,6 +4,7 @@ import me from "../img/profilephoto.png"
 import { Box, Image, Text } from '@chakra-ui/react'
 import Links from './Links'
 import { Element } from 'react-scroll'
+import Minks from './Minks'
 
 const Hero = () => {
     
@@ -23,7 +24,7 @@ const Hero = () => {
     </div>
 
     <div className="github">
-        <Links/>
+        <Minks/>
     </div>
     </div>
     <div className="middle">
