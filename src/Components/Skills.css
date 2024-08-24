@@ -19,7 +19,6 @@
     margin: auto;
     padding: 2rem;
 
-
 }
 
 #sheading{
@@ -29,8 +28,11 @@
 
 
 @media (max-width: 500px) {
-    *{
-        /* background-color: red; */
-        
+    .skillscont{
+        padding: 2rem;
+    
+    }
+    #sheading{
+        margin-left: 3rem;
     }
 }

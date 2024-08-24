@@ -121,7 +121,7 @@ const Skills = () => {
              
             </Grid> */}
 
-            <SimpleGrid minChildWidth='120px' spacing='40px'>
+            <SimpleGrid minChildWidth='100px' spacing='20px'>
             {skills.map(skill=>(
                 <Skill name={skill.name} img={skill.img}/>
                 ))} 
