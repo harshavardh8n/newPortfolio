@@ -1,0 +1,23 @@
+.skillsmain{
+
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+    padding-top: 10rem;
+}
+
+.skillscont{
+    
+    max-height: 80vh;
+    min-height: 20vh;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+
+
+}
+
+#sheading{
+    margin-left: 5rem;
+}
+

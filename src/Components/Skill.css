@@ -1,0 +1,19 @@
+/* .skilli{
+    height: 4rem;
+    position: absolute;
+    top:0.2rem;
+}
+
+.skillicont{
+    height: 4rem;
+    overflow: hidden ;
+    border-radius: 35px;
+    width: 5rem;
+    position: relative;
+} */
+
+.skill{
+    width: fit-content;
+    text-align: center;
+}
+
