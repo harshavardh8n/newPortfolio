@@ -1,6 +1,7 @@
 // NavDrawer.js
 
 import React from "react";
+import { Link } from "react-scroll";
 import {
   Drawer,
   DrawerBody,
@@ -29,9 +30,15 @@ const NavDrawer = ({ isOpen, onClose, btnRef }) => {
         <DrawerBody>
           <Box p={4} className = "vnavbar">
             <ul style={{ listStyle: "none", padding: 0 }}>
-              <li style={{ padding: "1rem", borderBottom: "1px solid #ddd" }} className = "vnavitem">Home</li>
+             <Link to="hero" smooth={true} duration={500}>
+             <li style={{ padding: "1rem", borderBottom: "1px solid #ddd" }} className = "vnavitem">Home</li>
+             </Link> 
+             <Link to="introduction" smooth={true} duration={500}>
               <li style={{ padding: "1rem", borderBottom: "1px solid #ddd" }} className = "vnavitem">About</li>
-              <li style={{ padding: "1rem", borderBottom: "1px solid #ddd" }}className = "vnavitem" >Skills</li>
+             </Link>
+             <Link to="skills" smooth={true} duration={500}>
+              <li style={{ padding: "1rem", borderBottom: "1px solid #ddd" }} className = "vnavitem">Skills</li>
+             </Link>
               <li style={{ padding: "1rem", borderBottom: "1px solid #ddd" }}className = "vnavitem" >Projects</li>
               <li style={{ padding: "1rem" }} className = "vnavitem">Contacts</li>
             </ul>

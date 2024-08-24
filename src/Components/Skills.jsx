@@ -2,101 +2,128 @@ import { Grid, GridItem, SimpleGrid, Text } from '@chakra-ui/react'
 import React from 'react'
 import { Element } from 'react-scroll'
 import "./Skills.css"
-import react from "../img/reactjs.png"
+import react from "../img/react.png"
+import html from "../img/html-5.png"
+import css from "../img/css-3.png"
+import js from "../img/js.png"
+import node from "../img/node-js.png"
+import mysql from "../img/mysql.png"
+import mongo from "../img/mongodb-icon.png"
+import github from "../img/github.png"
+import bootstrap from "../img/bootstrap.png"
+import prisma from "../img/prisma.png"
+import postgres from "../img/postgres.png"
+import ts from "../img/typescript.png"
+import chakra from "../img/chakra.png"
+import express from "../img/express.png"
+import postman from "../img/postman.png"
+import git from "../img/git.png"
+import redux from "../img/redux.png"
+import recoil from "../img/recoil.png"
+import aws from "../img/aws.png"
+import figma from "../img/figma.png"
+import cpp from "../img/c-.png"
+import java from "../img/java.png"
+import python from "../img/python.png"
 import Skill from './Skill'
 
 const Skills = () => {
-    const skills = [{
+    const skills = [
+        {
+            name:"HTML",
+            img: html
+        },
+        {
+            name:"CSS",
+            img: css
+        },
+        {
+            name:"javaScript",
+            img: js
+        },
+        {
+            name:"TypeScript",
+            img: ts
+        }, 
+
+        {
+            name:"mySQL",
+            img: mysql
+        },
+        
+        {
+            name:"MongoDB",
+            img: mongo
+        },
+
+        {
+            name:"Express JS",
+            img: express
+        },
+    {
         name:"React.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
-    },
-    {
-        name:"HTML",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s"
-    },
-    {
-        name:"CSS",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
-    },
-    {
-        name:"HTML",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s"
+        img: react
     },
     {
         name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
+        img: node
     },
     {
-        name:"HTML",
-        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s"
+        name:"Redux",
+        img: redux
     },
     {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
+        name:"Recoil",
+        img: recoil
+    },
+    
+    {
+        name:"Bootstrap",
+        img: bootstrap
     },
     {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
+        name:"chakra UI",
+        img: chakra
     },
     {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
+        name:"git",
+        img: git
     },
     {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
+        name:"gitHub",
+        img: github
     },
     {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
+        name:"aws",
+        img: aws
     },
     {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
+        name:"Figma",
+        img: figma
     },
     {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
+        name:"Postman",
+        img: postman
     },
     {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
+        name:"Prisma",
+        img: prisma
     },
     {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
+        name:"PostgreSQL",
+        img: postgres
     },
     {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
+        name:"Python",
+        img: python
     },
     {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
+        name:"C++",
+        img: cpp
     },
     {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
-    },
-    {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
-    },
-    {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
-    },
-    {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
-    },
-    {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
-    },
-    {
-        name:"Node.js",
-        img: "https://shethink.in/wp-content/uploads/2021/07/react.js-img.png"
+        name:"Java",
+        img: java
     },
 ]
   return (
