@@ -91,6 +91,11 @@
 
 
 @media (max-width: 780px) {
+
+    .github{
+        width: fit-content;
+
+    }
     
     .herocont{
         flex-direction: column;
@@ -100,14 +105,15 @@
     .greeting{
         
         padding:2rem;
-        width: 50vw;
+        width: 80vw;
+        /* width: 5rem; */
         /* margin-top: 12rem; */
         height: fit-content;
         background-color: #FEFCBF;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         font-weight: 500;
         border-radius: 10px 40px 16px;
-        /* margin-left: 4rem; */
+        margin-left: 2rem;
     }
 
     .mern{
@@ -129,7 +135,9 @@
 
     .left{
         display: flex;
+        flex-direction: column;
         margin-top: 2rem;
+        gap:3rem;   
     }
 
 
