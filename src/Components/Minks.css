@@ -97,3 +97,7 @@
     transform: translateY(-70px);
   }
   
+
+  .siclick{
+    cursor: pointer;
+  }
