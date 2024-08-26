@@ -3,7 +3,7 @@ import "./Introduction.css"
 import img1 from "../img/25559529.jpg"
 import { Button, Img, Text } from '@chakra-ui/react'
 import { Element } from 'react-scroll'
-import resume from "../assets/myresume-mark3.pdf"
+import resume from "../assets/mynewreadycv.pdf"
 
 const Introduction = () => {
   return (

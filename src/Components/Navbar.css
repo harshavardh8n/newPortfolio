@@ -19,9 +19,9 @@
 }
 
 .hnav li:hover {
-    background-color: rgb(48, 0, 126);
+    background-color: #caf0f8;
     transform: scale(1.05);
-    color: white;
+    color: black;
 }
 
 
