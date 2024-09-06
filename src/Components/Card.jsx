@@ -5,7 +5,12 @@ import { FaGithub,FaEye } from "react-icons/fa";
 const Card = ({ tag, title, description, image, link, view, lightMode }) => {
   return (
     <Box
-      w={"14rem"}
+      w={[
+        '100%', // 0-30em
+        '100%', // 30em-48em
+        // '90%', // 48em-62em
+        '14rem', // 62em+
+      ]} 
       h={"19rem"}
       textAlign={"left"}
       bgColor={lightMode ? "#fff" : "#2c2c2c"}

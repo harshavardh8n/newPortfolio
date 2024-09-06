@@ -28,9 +28,9 @@ export const allworkfolio = [
     key: 3,
     tag: "Web Dev",
     title: "Money Exchange App",
-    description: "Clean and simple Instagram clone, powered by MERN Stack.",
+    description: "A full stack Mern app, users can transfer application currency to each other",
     image: mexchange,
-    link: "https://github.com/harshavardh8n/MoneyExchange-frontend",
+    link: "https://github.com/amit-077/Instagram_Clone",
     view: "https://money-exchange-frontend.vercel.app/"
   },
   {
@@ -38,9 +38,9 @@ export const allworkfolio = [
     tag: "Job",
     title:"Job Portal",
     description:
-      "A web scraping tool that ensures instant notifications for Flipkart price drops.",
+      "A full stack MERN web-app, lets user upload their resume and apply for jobs",
     image: jobPortal,
-    link: "https://github.com/amit-077/ShopSleuth",
+    link: "https://github.com/harshavardh8n/Job-Portal-Assignment-frontend",
     view: "https://job-portal-assignment-frontend.vercel.app/",
   },
   {
@@ -48,14 +48,14 @@ export const allworkfolio = [
     tag: "Web Dev",
     title: "Classroom-backend project",
     description:
-      "A web app that converts short captions into engaging LinkedIn posts instantly.",
+      "Full stack web app, Used access control for students, teachers and principal",
     image: classroom,
-    link: "https://github.com/amit-077/linkedIn-post-generator",
-    view: "https://linkedin-posts-generator.netlify.app/",
+    link: "https://github.com/harshavardh8n/Classrooms-Backend",
+    // view: "https://linkedin-posts-generator.netlify.app/",
   },
   {
     key: 5,
-    tag: "Web Dev",
+    tag: "Chrome Extension",
     title: "CoverMate AI",
     description:
       "Intenshala Cover letter Automation Chrome Extension",

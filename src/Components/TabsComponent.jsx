@@ -92,7 +92,7 @@ const TabsComponent = ({ lightMode }) => {
         <TabPanel
             display={"flex"}
             justifyContent={"left"}
-            gap={"3rem"}
+            gap={"2.5rem"}
             pl={"2.5rem"}
             flexWrap={"wrap"}
             h={"100%"}
@@ -115,7 +115,7 @@ const TabsComponent = ({ lightMode }) => {
           <TabPanel
             display={"flex"}
             justifyContent={"left"}
-            gap={"3rem"}
+            gap={"2.5rem"}
             pl={"2.5rem"}
             flexWrap={"wrap"}
             h={"100%"}
@@ -138,7 +138,7 @@ const TabsComponent = ({ lightMode }) => {
           <TabPanel
             display={"flex"}
             justifyContent={"left"}
-            gap={"3rem"}
+            gap={"2.5rem"}
             pl={"2.5rem"}
             flexWrap={"wrap"}
             h={"100%"}
@@ -160,7 +160,7 @@ const TabsComponent = ({ lightMode }) => {
           <TabPanel
             display={"flex"}
             justifyContent={"left"}
-            gap={"3rem"}
+            gap={"2.5"}
             pl={"2.5rem"}
             flexWrap={"wrap"}
             h={"100%"}
