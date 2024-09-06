@@ -10,9 +10,11 @@ import Hero from './Components/Hero'
 import Links from './Components/Links'
 import Introduction from './Components/Introduction'
 import Skills from './Components/Skills'
+import Wordkfolio from './Components/Wordkfolio'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [lightMode, setLightMode] = useState(true);
 
   return (
     <>
@@ -20,6 +22,7 @@ function App() {
     <Hero/>
     <Introduction/>
     <Skills/>
+    <Wordkfolio lightMode={lightMode} setLightMode={setLightMode}/>
     </>
   )
 }

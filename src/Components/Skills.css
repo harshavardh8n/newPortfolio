@@ -2,11 +2,12 @@
 
 
 @media (min-width:500px) {
-    
+  
 .skillsmain{
 
     height: 100vh;
     width: 100vw;
+    
     /* background-color: red; */
     padding-top: 8rem;
 }
@@ -28,6 +29,7 @@
 
 
 @media (max-width: 500px) {
+   
     .skillscont{
         padding: 2rem;
     
@@ -35,4 +37,9 @@
     #sheading{
         margin-left: 2rem;
     }
+    .skillsmain{
+        /* background-color: red; */
+        height: 80rem;
+    }
+
 }

@@ -15,6 +15,7 @@
 .skill{
     width: fit-content;
     text-align: center;
+    height: fit-content;
 }
 
 @media (max-width: 500px) {
